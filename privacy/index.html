@@ -10,7 +10,7 @@
 <body>
   <main>
     <h1>Native SSH Terminal Privacy Policy</h1>
-    <p><strong>Effective date:</strong> November 15, 2026</p>
+    <p><strong>Effective date:</strong> November 16, 2026</p>
     <p>Native SSH Terminal is published by Carranza Technologies LLC. We designed the app to connect your device directly to SSH servers you choose, without routing terminal traffic through a Carranza Technologies service.</p>
 
     <h2>Data we collect</h2>
@@ -18,6 +18,9 @@
 
     <h2>Data stored on your device</h2>
     <p>Saved-host metadata and trusted host-key fingerprints are stored in the app container with iOS file protection. Passwords and Ed25519 private keys are stored in the iOS Keychain.</p>
+
+    <h2>App Store purchases</h2>
+    <p>Apple processes trial acquisitions, purchases, and purchase restoration through the App Store. Native SSH Terminal uses StoreKit to obtain and verify transaction information on your device, including product and transaction identifiers, original acquisition dates, and revocation status, to determine connection access. The app does not send this transaction information to a Carranza Technologies LLC server. Restoring purchases checks Apple&#x27;s transaction records and does not reset the original trial start. Deleting a saved host, a key, or trusted-host records does not delete your App Store purchase history.</p>
 
     <h2>Retention and deletion</h2>
     <p>Saved-host metadata and its saved password remain until you delete that host. The default Ed25519 private key remains until you use Delete Key on the Keys tab. Trusted host keys are retained independently from saved hosts so the app can continue detecting unexpected key changes; use Settings &gt; Clear All Trusted Host Keys to remove every trust record. Clearing trust records causes the next connection to each server to be treated as first use. Deleting the app removes its container, while Keychain retention after uninstallation is controlled by iOS.</p>
